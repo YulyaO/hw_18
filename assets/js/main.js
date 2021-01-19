@@ -14,7 +14,7 @@ let testPerformance = (iterations, func) => {
     while (str.indexOf('i') !== -1) str = str.replace('i', '');
   }
   
-  // данная функция необходима для корректного тестирования кода
+ 
   function test2() {
     const reg = new RegExp('[oaeui]', 'gui');
   
